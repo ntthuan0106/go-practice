@@ -5,14 +5,17 @@ go 1.23
 toolchain go1.23.7
 
 require (
-	github.com/IBM/sarama v1.45.1 // indirect
+	github.com/IBM/sarama v1.45.1
+	github.com/gofiber/fiber/v3 v3.0.0-beta.4
+)
+
+require (
 	github.com/andybalholm/brotli v1.1.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/eapache/go-resiliency v1.7.0 // indirect
 	github.com/eapache/go-xerial-snappy v0.0.0-20230731223053-c322873962e3 // indirect
 	github.com/eapache/queue v1.1.0 // indirect
 	github.com/fxamacker/cbor/v2 v2.7.0 // indirect
-	github.com/gofiber/fiber/v3 v3.0.0-beta.4 // indirect
 	github.com/gofiber/schema v1.2.0 // indirect
 	github.com/gofiber/utils/v2 v2.0.0-beta.7 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
